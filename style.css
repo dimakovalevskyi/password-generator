@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+h3 {
+    margin-bottom: 10px;
+}
+hr {
+    margin: 10px 0;
+}
+
+button {
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+button:focus,
+button:active {
+    outline: none;
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.wrapper {
+    display: flex;
+    padding: 50px 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.generator {
+    max-width: 600px;
+    width: 100%;
+}
+.control {
+    margin-bottom: 10px;
+}
+.buttons-panel {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.disclaimer {
+    margin-bottom: 50px;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+.full-width {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}

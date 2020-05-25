@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Simple & Safe password generator.">
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Simple & Safe Password Generator</h1>
+        <div class="generator">
+            <h3>Which symbols use for password?</h3>
+            <div class="checkbox control">
+                <input type="checkbox" id="lowercaseCheckbox" checked>
+                <label for="lowercaseCheckbox">Lowercase symbols</label>
+            </div>
+            <div class="checkbox control">
+                <input type="checkbox" id="uppercaseCheckbox" checked>
+                <label for="uppercaseCheckbox">Uppercase symbols</label>
+            </div>
+            <div class="checkbox control">
+                <input type="checkbox" id="numbersCheckbox" checked>
+                <label for="numbersCheckbox">Numbers</label>
+            </div>
+            <div class="checkbox control">
+                <input type="checkbox" id="symbolsCheckbox">
+                <label for="symbolsCheckbox">Symbols</label>
+            </div>
+            <hr>
+            <div class="input control">
+                <label for="lengthInput">Length</label>
+                <input type="number" id="lengthInput" min="4" max="100" value="8">
+            </div>
+            <hr>
+            <h3>Your super safe password:</h3>
+            <div class="input control">
+                <input type="text" id="passwordInput" readonly class="full-width">
+            </div>
+            <div class="buttons-panel">
+                <button id="copyButton" type="button">Copy</button>
+                <button id="generateButton" type="button">Regenerate</button>
+            </div>
+            <div class="disclaimer">
+                <p>Your password is safe.</p>
+                <p>This page has 0 external lines of code, 0 analytics tracking. All code here is simple and unminified. You can easy check it's source and be sure that this generator doesn't send any information anywhere.</p>
+            </div>
+            <hr>
+        </div>
+        <div class="footer">Created with ❤️ by <a href="https://github.com/dimakovalevskyi" target="_blank">dimakovalevskyi</a></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
